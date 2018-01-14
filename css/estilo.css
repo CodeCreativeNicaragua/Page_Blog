@@ -19,7 +19,7 @@ body{
 
 .contenedor{
 
-  width: 1200px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -205,7 +205,8 @@ width: 100%;
 .blog .contenedor .articulos-blog{
 
   float: left;
-  width: 68%;
+  width: 70%;
+
 
 }
 
@@ -388,4 +389,24 @@ width: 28%;
   border: 1px solid #f0f0f0;
   text-align: center;
   color: #9c9c9c;
+}
+
+
+/* Responsive TABLETS*/
+
+@media only screen and (max-width:800px){
+
+
+
+ .aside{
+   width: 100%;
+
+ }
+
+
+
+ .contenedor{
+   width: 90%;
+ }
+
 }
